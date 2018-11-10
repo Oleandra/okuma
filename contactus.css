@@ -1,0 +1,17 @@
+.textarea_contactus{
+    border-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+.social{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.cartas{
+    display: flex;
+    justify-content: space-around;
+}
