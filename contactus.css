@@ -7,11 +7,59 @@
 }
 
 .social{
-    display: inline-block;
     list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .cartas{
     display: flex;
     justify-content: space-around;
+    margin: 1px;
 }
+
+.card{
+    margin: 5px;
+}
+
+.btn{
+    display: inline-block;
+    text-align:center;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.footer{
+    margin-top: 400px;
+}
+
+.contact-body{
+    margin-bottom: 80px;
+}
+
+.modal-input-text{
+    width: 100%;
+    margin: 2px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+/*
+
+*/
