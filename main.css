@@ -435,9 +435,12 @@ ul.navbar-nav.mr-auto.justify-content-center {
   position: absolute;
 }
 
+
+/*footer*/
+
 .footer {
-  height: 80px;
-  background-color: red;
+  height: 60px;
+  background-color:#AB0E16;
 }
 
 .social li {
@@ -451,6 +454,19 @@ ul.navbar-nav.mr-auto.justify-content-center {
 .modal-input-text {
   width: 100%;
   margin: 2px;
+}
+.social-text{
+   display: inline-block;
+    position: absolute;
+    top: 15px;
+    vertical-align: middle;
+  }
+  .social-text a{
+    color:#fff;
+  }
+
+.list-inline-item:not(:last-child) {
+    margin-right:0px!important;
 }
 
 .flex-container {
