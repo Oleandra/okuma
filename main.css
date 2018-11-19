@@ -6,18 +6,19 @@ rojo rgba (171, 14, 22, 1)
 $font-family-base: 'Roboto', sans-serif; // add this line first before importing bootstrap
 
 
-h2, h3 {
+h2,h3 {
   margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 h1,h2,h3,h4,h5,h6,p {
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  
 }
 
 h1,h2,h3,h4 {
- color:#AB0E16;;
+ color:#AB0E16;
+ font-weight: bold;
 }
 
 p{
@@ -49,8 +50,24 @@ ul.navbar-nav.mr-auto.justify-content-center {
 .we-slogan{
   color:#AB0E16;
 }
+/*home*/
+.card-img-top {
+   
+    border-top-left-radius:0px!important;
+    border-top-right-radius:0px!important;
+}
 
+.btn-contactus a{
+  color:#FFF!important;
+}
+.btn-contactus a:hover{
+  color:#FFF!important;
+  text-decoration:none!important;
+}
 
+.home-hdr{
+  margin-top: -125px!important;
+}
 
 /*cart*/
 .fa-cart-arrow-down {
