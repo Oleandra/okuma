@@ -11,38 +11,41 @@
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg okuma-menu">
-      <a class="navbar-brand" href="#"><a class="navbar-brand" href="index.html">
-        <img src="images/okuma-logo.png" height="50" alt="okuma-logo">
-      </a></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto justify-content-center">
-          <li class="nav-item active">
-            <a class="nav-link okuma-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link okuma-link" href="nosotros.html">Nosotros</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link okuma-link dropdown-toggle" href="menu.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Menu
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="menu.html#sushi">Sushi</a>
-              <a class="dropdown-item" href="menu.html#postres">Postres</a>
-              <a class="dropdown-item" href="menu.html#bebidas">Bebidas</a>
+        <nav class="navbar navbar-expand-lg okuma-menu">
+            <a class="navbar-brand" href="index.html"><a class="navbar-brand" href="index.html">
+                <img src="images/okuma-logo.png" height="50" alt="">
+           </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto justify-content-center">
+                    <li class="nav-item active">
+                        <a class="nav-link okuma-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link okuma-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link okuma-link" href="nosotros_2.html">Nosotros-2</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link okuma-link dropdown-toggle" href="menu.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Menu
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="menu.html#sushi">Sushi</a>
+                            <a class="dropdown-item" href="menu.html#postres">Postres</a>
+                            <a class="dropdown-item" href="menu.html#bebidas">Bebidas</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link okuma-link" href="contactus.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link okuma-link" href="contactus.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!--end of nav-->
+        </nav>
+        <!--end of nav-->
     <!--home carrusel-->
     <div class="container">
       <div class="row">
@@ -95,7 +98,7 @@
             <div class="card-body">
               <p class="card-text">
                 <h3 class="text-uppercase">conócenos</h3>
-                <p>
+                </p>
                   <div class="d-flex flex-column">
                     <div class="p-2">Ven y conoce nuestras instalaciones</div>
                   </div>
@@ -156,9 +159,29 @@
                   </div>
                 </div>
               </div>
-          </div>
+              <!--top button-->
+         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+         <script>
+         // When the user scrolls down 20px from the top of the document, show the button
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+         document.getElementById("myBtn").style.display = "block";
+         } else {
+         document.getElementById("myBtn").style.display = "none";
+         }
+         }
+         
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+         document.body.scrollTop = 0;
+         document.documentElement.scrollTop = 0;
+         }
+         </script>
+        </div> 
             <!--FOOTER-->
-              <footer class="footer col-md-12">
+              <footer class="footer fixed-bottom col-md-12">
                 <div class=" col-md-6"><p class="social-text">Todos los derechos reservados. Designed by <a href="mailto:gokuTeam@gmail.com"> @gokuTeam</a></p>
               </div>
               <div class="col-md-6 social list-inline float-right">
